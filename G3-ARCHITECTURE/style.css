@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* This is common styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* This is Header section  */
+
+.header {
+    padding: 45px 240px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-container li {
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.banner-container {
+    text-align: center;
+    margin: 100px 0 40px 0;
+}
+
+.banner-title {
+    color: var(--dark-01, #131313);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin: 35px 0;
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-img {
+    width: auto;
+    margin-top: 50px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* This is Features Section  */
+.features-container {
+    margin: 85px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.features-img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-container img {
+    width: 100%;
+}
+
+.features-content {
+    width: 50%;
+    text-align: left;
+
+}
+
+.features-title {
+    color: var(--dark-03, #727272);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.of-our {
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+}
+
+.features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.features-description {
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
